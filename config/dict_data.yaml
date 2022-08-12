@@ -1,0 +1,5 @@
+dict_data:
+    int_data: 10
+    double_data: 3.14
+    bool_data: true
+    string_data: "test"

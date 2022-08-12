@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="cpp_dict_param" type="dict_param_node" name="dict_param" output="screen">
+        <rosparam file="$(find cpp_dict_param)/config/dict_data.yaml" />
+    </node>
+
+</launch>
